@@ -4,8 +4,7 @@ public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
             int i, number = 1, count;
 
-            System.out.println(" From 1 to 100 are : ");
-            while(number <= 100)
+            while(number <= printToInclusive)
             {
                 count = 0;
                 i = 2;
